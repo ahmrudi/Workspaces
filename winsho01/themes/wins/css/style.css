@@ -1,0 +1,106 @@
+/* author: ahmad rudi
+ * email: ahm.rudi@gmail.com
+ * date: 4/10/2014
+ */
+body{
+ margin:0px auto;
+}
+/* Begin with body
+ * because body is every think
+ */
+#body{
+ width:800px;
+ min-height:600px;
+ margin:0px auto;
+ font-size:75%;
+ padding:0px;
+}
+/* This is id header-body
+ * because in the top of body website
+ * <div id="header-body">
+ *  <div id="header-top">
+ *  </div>
+ *  <div id="header-bottom">
+ *  </div>
+ * </div>
+ */
+.fix{
+ margin-left:25px;
+ margin-right:25px;
+}
+#header-body{
+ height:200px;
+}
+#header-body #header-top{
+ height:65px;
+ width:750px;
+ background-image:url("../images/menu-top-bg.png");
+}
+#header-body #header-bottom{
+ height:135px;
+ background-image:url("../images/header-bg.png");
+ margin-left:24px;
+ margin-right:25px;
+ background-repeat:repeat-y;
+}
+/* This for develop
+ * try this, this try
+ */
+/* This is id menu-body
+ *
+ */
+#menu-body{
+ background-image:url("../images/menu-bg.png");
+ background-repeat:repeat-x;
+}
+#menu-body .role-menu{
+ padding:0px;
+ margin:0px;
+ width:500px;
+ margin-left:25px;
+}
+#menu-body .menu-link{
+ display:inline-block;
+ text-align:center;
+ text-decoration:none;
+ color:black;
+ padding:5px;
+ width:120px;
+ font-weight:bold;
+}
+#menu-body .menu-link:hover{
+ color:white;
+ background:blue;
+}
+#menu-body .menu-child{
+ font-weight:normal;
+}
+#menu-body .role-menu, #menu-body .menu-contact{
+ display:inline-block;
+}
+#menu-body .menu-contact{
+ width:200px;
+}
+#menu-br{
+ height:5px;
+ background-image:url("../images/menu-bg-bottom.png");
+}
+#menu-dr{
+ height:16px;
+ background-image:url("../images/rightBody-bg.png");
+ background-repeat:no-repeat;
+}
+#menu-er{
+ height:16px;
+ background-image:url("../images/leftBody-bg.png");
+ background-repeat:no-repeat;
+ margin-left:775px;
+ margin-top:-16px;
+}
+#contain-body{
+ min-height:400px;
+}
+#footer-body{
+ background-image:url("../images/menu-bg.png");
+ height:30px;
+}

@@ -2,7 +2,7 @@
 
 class SiteController extends Controller
 {
-	public $siteContent=array('index'=>array('id'=>0,'title'=>'Home','content'=>'test content', 'url'=>'home'),'about'=>array('id'=>1,'title'=>'About','url'=>'About'));
+	public $siteContent=array('index'=>array('id'=>0,'title'=>'Home','content'=>'test content',url'=>'home'),'about'=>array('id'=>1,'title'=>'About','url'=>'About'));
 	/**
 	 * Declares class-based actions.
 	 */

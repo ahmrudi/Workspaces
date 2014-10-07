@@ -1,0 +1,25 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+ <title></title>
+ 
+</head>
+<body>
+
+<div id="header">
+ <div id="header-top">#header-top</div>
+ <div id="header-bottom">#header-bottom</div>
+</div>
+
+<div id="corporate">
+ <div class="corporate-logo">#corporate-logo</div>
+</div>
+
+<div id="menu">#menu</div>
+
+<div id="contain">#contain</div>
+
+<div id="footer">#footer</div>
+
+</body>
+</html>
